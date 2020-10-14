@@ -25,6 +25,6 @@
           </nav>
           <div class="header__box">
                <h2 class="heading-secondary">L'expérience client améliorée!</h2>
-               <div class="header__button"><a href="#">Essayez notre démo</a></div>
+               <div class="header__button"><a href="<?php the_permalink(19); ?>">Essayez notre démo</a></div>
           </div>
      </header>
