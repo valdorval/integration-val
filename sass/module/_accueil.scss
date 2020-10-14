@@ -1,0 +1,32 @@
+.accueil {
+
+     &__card {
+          margin: 4rem;
+          padding: 2rem;
+          border-radius: 50rem;
+          background-color: rgba($color-background-dark, .4);
+          box-shadow: 2px 2px 1rem rgba($color-black, .2);
+          justify-content: space-evenly;
+          align-items: center;
+
+          &--img {
+               background-color: $color-white;
+               height: 10rem;
+               width: 10rem;
+               border-radius: 50%;
+               box-shadow: inset 9px 5px 12px rgba($color-black, .2), inset -8px -9px 6px rgba($color-white, .6);
+               position: relative;
+
+               img {
+                    @include position;
+                    width: 50%;
+               }
+          }
+
+          &--text {
+               display: block;
+               width: 80%;
+          }
+
+     }
+}
