@@ -1,13 +1,4 @@
-.container { 
-     width: 60%;
-     margin: 0 auto;
-
-     @include  responsive(tablet) { 
-          width: 100%;
-     }  
-}
-
-.container-normal { 
+.container{ 
      width: 75%;
      margin: 0 auto;
 
@@ -47,3 +38,5 @@
 
 .u-padding-bottom-normal {padding-bottom: 2.4rem;}
 .u-padding-bottom-big {padding-bottom: 6rem;}
+
+.u-padding-top-big {padding-top: 5rem;}

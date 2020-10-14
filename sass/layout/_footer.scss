@@ -1,5 +1,5 @@
 .footer {
-     background-color: $color-white;
+     background-color: rgba($color-background, .6);
      height: 25vh;
      position: relative;
 
@@ -18,11 +18,13 @@
      }
 
      &__copyright {
+          font-size: 1.4rem;
           position: absolute;
           bottom: 15%;
           left: 50%;
           transform: translateX(-50%);
           font-weight: 700;
           color: $color-black;
+          letter-spacing: .6rem;
      }
 }
