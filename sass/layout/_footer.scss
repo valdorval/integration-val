@@ -1,3 +1,28 @@
 .footer {
-     
+     background-color: $color-white;
+     height: 25vh;
+     position: relative;
+
+     &__link {
+          @include position;
+          
+          a {
+               color: $color-black;
+               transition: all .4s;
+               margin: 0 5rem;
+
+               &:hover {
+                    color: $color-primary-light;
+               }
+          }
+     }
+
+     &__copyright {
+          position: absolute;
+          bottom: 15%;
+          left: 50%;
+          transform: translateX(-50%);
+          font-weight: 700;
+          color: $color-black;
+     }
 }

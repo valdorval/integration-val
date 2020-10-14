@@ -101,6 +101,29 @@ p {
 .u-padding-bottom-big {
   padding-bottom: 6rem; }
 
+.footer {
+  background-color: #fff;
+  height: 25vh;
+  position: relative; }
+  .footer__link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .footer__link a {
+      color: #000;
+      transition: all .4s;
+      margin: 0 5rem; }
+      .footer__link a:hover {
+        color: #00609D; }
+  .footer__copyright {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    color: #000; }
+
 .header {
   background-color: #EFF2FE; }
   .header .nav__menu {

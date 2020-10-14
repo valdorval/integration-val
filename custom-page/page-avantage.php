@@ -7,8 +7,8 @@
 get_header();
 ?>
 
-<main>
-     <h1>Choisissez EZ Tracking</h1>
+<main class="main">
+     <h3 class="heading-tertiary">Choisissez EZ Tracking</h3>
      <section class="avantage">
           <div class"flex">
                <div>

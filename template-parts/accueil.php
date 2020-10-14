@@ -1,5 +1,5 @@
-<main>
-     <h1>Suivez vos clients du bout des doigts</h1>
+<main class="main">
+     <h3 class="heading-tertiary">Suivez vos clients du bout des doigts</h3>
      <section class="acceuil">
           <div class="flex">
                <div>

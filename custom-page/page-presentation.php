@@ -8,9 +8,9 @@
 get_header();
 
 ?>
-<main>
+<main class="main">
      <section class="presentation">
-          <h1>Découvrez notre équipe de passionnés!</h1>
+          <h3 class="heading-tertiary">Découvrez notre équipe de passionnés!</h3>
           <p>Team SVB est au service des entreprises depuis plusieurs années en proposant des solutions web faciles d’utilisation et adaptées à tous les besoins.</p>
 
           <div>
