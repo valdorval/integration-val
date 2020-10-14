@@ -1,0 +1,66 @@
+.header {
+     background-color: $color-background;
+
+     .nav {
+
+          &__menu {
+               list-style: none;
+               justify-content: space-between;
+
+               
+               &--item {
+                    background: $color-background;
+                    width: 15%;
+                    padding: 1rem 0;
+                    border-radius: $b-radius;
+                    box-shadow: 2px 2px 5px rgba($color-black, .2), -2px -2px 5px rgba($color-white, .8);
+                    cursor: pointer;
+                    transition: all .4s;
+
+                    &:hover {
+                         background-color: rgba($color-white, .3);
+                         box-shadow: 2px 2px 5px rgba($color-black, .1), -2px -2px 5px rgba($color-white, .5);
+                    }
+
+                    a {
+                         padding: 1rem 20%;
+                    }
+               }
+          }
+     }
+
+     &__box {
+          position:relative;
+          height: 35vh;
+          background-color: $color-primary;
+
+          h2 {
+               padding-top: 10rem;
+          }
+     }
+
+     &__button {
+          position: absolute;
+          bottom: 20%;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: rgba($color-white, .85);
+          box-shadow: 2px 2px 5px rgba($color-black, .3), -2px -2px 4px rgba($color-white, .2);
+          width: 12%;
+          height: 13%;
+          text-align: center;
+          padding: 1rem;
+          border-radius: $b-radius;
+          transition: all .4s;
+          
+          a {
+               font-weight: 500;
+          }
+
+          &:hover {
+               background-color: $color-white;
+               box-shadow: 2px 2px 5px rgba($color-black, .2), -2px -2px 4px rgba($color-white, .1);
+          }
+     }
+     
+}
