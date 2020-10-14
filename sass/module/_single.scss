@@ -1,0 +1,18 @@
+.single-page {
+
+ 
+     
+}
+
+.single-categorie {
+     &__list {
+          a {
+          font-size: 2rem;
+          transition: all .4s;
+
+          &:hover {
+               color: $color-blue;
+          }
+          }
+     }
+}

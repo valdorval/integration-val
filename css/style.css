@@ -314,3 +314,9 @@ p {
     padding: 5rem;
     background-color: rgba(227, 230, 236, 0.4);
     box-shadow: 3px 3px 1.2rem rgba(0, 0, 0, 0.2); }
+
+.single-categorie__list a {
+  font-size: 2rem;
+  transition: all .4s; }
+  .single-categorie__list a:hover {
+    color: #4AABE8; }

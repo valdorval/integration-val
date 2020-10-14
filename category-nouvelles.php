@@ -3,18 +3,29 @@ get_header();
 
 ?>
 
-<h1>Nouvelles</h1>
+<main class="main">
+     <h3 class="heading-tertiary u-margin-bottom-big">Nouvelles</h3>
+     <nav class="blog__categorie flex u-margin-bottom-big">
 
-<?php query_posts('cat=5');
+          <?php
+          $categories = get_categories();
+          foreach ($categories as $categorie) { ?>
+          <?php echo '<div class="blog__categorie--item"><a href="' . get_category_link($categorie->term_id) . '">' . $categorie->name . '</a></div>';
+          } ?>
+     </nav>
+     <section class="single-categorie container">
+          <?php query_posts('cat=7');
+          if (have_posts()) : ?>
+               <?php while (have_posts()) : the_post(); ?>
+                    <div class="single-categorie__list center u-margin-bottom-small">
+                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                    </div>
+                    </li>
 
-if (have_posts()) : ?>
-     <ul>
-          <?php while (have_posts()) : the_post(); ?>
-               <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-     </ul>
-
-<?php endwhile;
-     endif; ?>
+          <?php endwhile;
+          endif; ?>
+     </section>
+</main>
 
 <?php
 get_footer();
