@@ -1,0 +1,78 @@
+.blog {
+
+     &__categorie {
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+          justify-content: space-around;
+          font-weight: 500;
+          font-size: 2.3rem;
+
+          &--item {
+               padding: 1rem 2rem;
+               border-radius: $b-radius;
+               transition: all .5s;
+
+               a {
+                    padding: 1rem 2rem;
+               }
+
+               &:hover {
+                    background-color: rgba($color-background, .6);
+                    box-shadow: 1px 1px 3px rgba($color-black, .3), inset 2px 2px 4px rgba($color-white, 0.6);
+               }
+          }
+     }
+
+     &__article {
+          width: 100%;
+          height: 35vh;
+          justify-content: space-between;
+
+          ul {
+               list-style: none;
+          }
+
+          &--thumb {
+               width: 30%;
+               position: relative;
+             
+               img {
+                    @include position;
+                    width: 75%;
+                    height: 75%;
+                    transition: all .4s;
+
+                    &:hover {
+                         box-shadow: 2px 2px 8px rgba($color-blue, .8),
+                         -2px -2px 8px rgba($color-blue, .8);
+                    }
+               }
+          }
+
+          &--item {
+               width: 65%;
+               padding: 4rem;
+               position: relative;
+          }
+
+     }
+
+     &__text {
+          color: $color-primary-light;
+          width: 90%;
+          height: 90%;
+          padding: 7rem 5rem;
+          @include position;
+          background-color: rgba($color-background-dark, .4);
+          box-shadow: 3px 3px 1.2rem rgba($color-black, .2);
+
+          a {
+               transition: all .4s;
+
+               &:hover {
+                    color: $color-blue;
+               }
+          }
+     }
+}
