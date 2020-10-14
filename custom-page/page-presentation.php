@@ -11,7 +11,7 @@ get_header();
 <main class="main">
      <section class="presentation container">
           <h3 class="heading-tertiary u-margin-top-normal u-margin-bottom-normal">Découvrez notre équipe de passionnés!</h3>
-          <p class="center u-padding-top-big u-padding-bottom-big">Team SVB est au service des entreprises depuis plusieurs années en proposant des solutions web faciles d’utilisation et adaptées à tous les besoins.</p>
+          <p class="center u-padding-top-big u-padding-bottom-big p-title">Team SVB est au service des entreprises depuis plusieurs années en proposant des solutions web faciles d’utilisation et adaptées à tous les besoins.</p>
 
           <article class="flex prensentation__box u-margin-bottom-big u-margin-top-big">
                <div class="presentation__profil">

@@ -31,6 +31,11 @@ a {
 p {
   text-align: justify; }
 
+.p-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgba(57, 56, 79, 0.6); }
+
 .heading-primary {
   padding: 5rem 0;
   font-size: 5rem; }
@@ -45,6 +50,8 @@ p {
   font-size: 2.3rem;
   font-weight: 300;
   text-align: left; }
+  .heading-quaternary--bold {
+    font-weight: 700; }
 
 .container {
   width: 75%;
@@ -196,7 +203,20 @@ p {
       width: 50%; }
   .accueil__card--text {
     display: block;
-    width: 80%; }
+    width: 80%;
+    color: #00609D; }
+
+.avantage {
+  color: #00609D; }
+  .avantage__content--box {
+    justify-content: space-around;
+    width: 100%; }
+  .avantage__content--item {
+    border-radius: 3px;
+    background-color: rgba(239, 242, 254, 0.8);
+    padding: 6rem;
+    width: 35%;
+    box-shadow: 4px 3px 1.2rem rgba(0, 0, 0, 0.15), inset 4px 3px 1.4rem rgba(255, 255, 255, 0.6); }
 
 .main {
   padding: 8rem 0;

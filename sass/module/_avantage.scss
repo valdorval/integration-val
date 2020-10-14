@@ -1,0 +1,19 @@
+.avantage {
+     color: $color-primary-light;
+
+     &__content {
+
+          &--box {
+               justify-content: space-around;
+               width:100%;
+          }
+
+          &--item {
+               border-radius: $b-radius;
+               background-color: rgba($color-background, .8);
+               padding: 6rem;
+               width: 35%;
+               box-shadow:  4px 3px 1.2rem rgba($color-black, .15), inset 4px 3px 1.4rem rgba($color-white, .6);
+          }
+     }
+}
