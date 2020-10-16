@@ -2,8 +2,12 @@
 
 body {
      font-family: $text-font;
-     font-size: 1.8rem;
+     font-size: $default-size;
      font-weight: 400;
+
+     @include  responsive(phone) { 
+         font-size: $small-size;
+     }  
 }
 
 h1, h2, h3,
@@ -24,6 +28,11 @@ p {
      font-size: 2rem;
      font-weight: 500;
      color: rgba($color-secondary, .6);
+
+     @include  responsive(tablet) { 
+          padding: 1.6rem;
+          padding: 1rem;
+     }  
 }
 
 .heading-primary {
@@ -41,6 +50,11 @@ p {
     &--light {
          color: $color-white;
     }
+
+    @include  responsive(tablet) { 
+         padding: 1rem;
+          font-size: 3.2rem;
+     }  
 }
 
 .heading-quaternary{

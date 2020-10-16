@@ -26,5 +26,9 @@
           font-weight: 700;
           color: $color-black;
           letter-spacing: .6rem;
+
+          @include  responsive(tablet) { 
+               letter-spacing: normal;
+          }  
      }
 }

@@ -11,7 +11,13 @@
 
 <body>
 
-     <header class="header">
+     <header class="header" id="header">
+          <div class="header__check">
+               <input type="checkbox" class="checkbox" id="checkbox">
+               <label for="checkbox" class="checkbox__toggle flex">
+                    <div class="checkbox__toggle--toggle"></div>
+               </label>
+          </div>
           <h1 class="heading-primary">EZ Tracking</h1>
 
           <nav class="nav u-margin-bottom-big container" id="nav-menu">

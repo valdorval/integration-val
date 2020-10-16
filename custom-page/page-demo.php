@@ -11,7 +11,6 @@ get_header();
      <section class="demo">
           <div class="container">
                <h3 class="heading-tertiary u-margin-bottom-big">Découvrez l'extension EZ Tracking</h3>
-               <?php echo do_shortcode("[recherche]") ?>
                <?php echo do_shortcode("[formulairecrm]") ?>
           </div>
 

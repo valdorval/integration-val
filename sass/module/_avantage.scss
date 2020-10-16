@@ -6,18 +6,32 @@
           &--box {
                justify-content: space-around;
                width:100%;
+
+               @include  responsive(tablet) { 
+                    display: block;
+               }  
           }
 
           &--item {
                border-radius: $b-radius;
                background-color: rgba($color-background, .8);
                padding: 6rem;
-               width: 35%;
+               width: 37%;
                outline: none;
                border: none;
                position: relative;
                box-shadow:  4px 3px 1.2rem rgba($color-black, .15), inset 4px 3px 1.4rem rgba($color-white, .6);
                transition: all .4s;
+               margin-bottom: 8rem;
+
+               @include  responsive(desktop) { 
+                    width: 45%;
+               } 
+
+               @include  responsive(tablet) { 
+                    width: 90%;
+                    margin: 2rem auto;
+               }  
 
                p {
                     line-height: 2.8rem;

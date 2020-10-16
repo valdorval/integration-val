@@ -7,6 +7,10 @@
           justify-content: space-evenly;
           color: $color-blue;
           font-size: 1.3rem;
+
+          @include  responsive(tablet) { 
+               width: 80%;
+          }  
      }
 
      &__excerpt {
@@ -16,6 +20,11 @@
                font-weight: 500;
                color: $color-primary;
                text-align: center;
+
+               @include  responsive(tablet) { 
+                    font-size: 1.6rem;
+                    padding: 1rem;
+               }  
           }
      }
 
@@ -33,6 +42,10 @@
 
           p {
                padding-bottom: 2.5rem;
+
+               @include  responsive(tablet) { 
+                    padding: 0 1.5rem 1.5rem;
+               }  
           }
      }
      
