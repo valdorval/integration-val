@@ -14,21 +14,21 @@ get_header();
                <div class="flex avantage__content--box u-margin-top-big u-padding-bottom-big">
                     <article class="avantage__content--item">
                          <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Simple d'utilisation</h3>
-                              <p>111Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem totam amet blanditiis nisi adipisci, nihil suscipit voluptatibus, voluptates consequuntur voluptatem excepturi vel molestias magnam iste commodi iure tempora. At.</p>
+                              <p>En tant que base de données centralisée, vous pourrez facilement obtenir des informations sur vos clients, les interaction avec ceux-ci et les tickets en cours.</p>
                     </article>
                     <article class="avantage__content--item">
-                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Titre 2</h3>
-                              <p>222Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias veritatis totam praesentium repellat deserunt iste. Adipisci earum dignissimos corrupti illum quos, animi fugiat! A mollitia consectetur asperiores distinctio debitis sapiente!</p>
+                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Formulaire de contact inclut</h3>
+                              <p>Ne cherchez plus à configurer des formulaires difficiles d'utilisation, EZ Tracking vous offre un formulaire de contact simple et prêt à l'emploi. </p>
                     </article>
                </div>
                <div class="flex avantage__content--box u-margin-top-big">
                     <article class="avantage__content--item">
-                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Titre 3</h3>
-                              <p>333Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolorem aspernatur sequi adipisci id illo nemo perspiciatis eligendi, nobis suscipit consequuntur facilis! Possimus doloribus voluptatem quia iste blanditiis maxime vero!</p>
+                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Interface Wordpress intégrée</h3>
+                              <p>Ne perdez plus votre temps à essayer de comprendre des interfaces compliquées. Grâce au menu administrateur de Wordpress, retrouvez toutes nos fonctionnalités dans un environnement que vous connaissez.</p>
                     </article>
                     <article class="avantage__content--item">
-                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Titre 4</h3>
-                              <p>Lorem</p>
+                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Entièrement gratuit</h3>
+                              <p>L'extension EZ Tracking est 100% gratuite et inclut toutes les fonctionnalités dont vous avez besoin pour gérer les intéractions avec vos clients.</p>
                     </article>
                </div>
           </div>

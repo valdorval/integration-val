@@ -19,6 +19,10 @@
                box-shadow:  4px 3px 1.2rem rgba($color-black, .15), inset 4px 3px 1.4rem rgba($color-white, .6);
                transition: all .4s;
 
+               p {
+                    line-height: 2.8rem;
+               }
+
                &:hover {
                     background-color: rgba($color-background, .6);
                     transform: scale(1.05) translateY(-1rem);
