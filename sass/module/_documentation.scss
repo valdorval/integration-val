@@ -1,0 +1,25 @@
+.documentation {
+     background-color: $color-primary-light;
+     padding: 8rem 5rem;
+     color: rgba($color-white, .7);
+
+     &__list {
+          ol {
+               margin-left: 5rem;
+          }
+
+          a  {
+               color: $color-white;
+               font-size: 2rem;
+               transition: all .4s;
+
+               &:hover {
+                    color: $color-blue;
+               }
+          }
+     }
+
+     strong {
+          color: $color-white;
+     }
+}
