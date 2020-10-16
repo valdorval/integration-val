@@ -20,6 +20,7 @@
                     &:hover {
                          background-color: rgba($color-blue, .1);
                          box-shadow: 2px 2px 5px rgba($color-black, .1), -2px -2px 5px rgba($color-white, .5);
+                         transform: scale(1.05) translateY(-.5rem);
                     }
 
                     a {
@@ -55,11 +56,13 @@
           
           a {
                font-weight: 500;
+               padding: 2rem 5rem;
           }
 
           &:hover {
                background-color: $color-white;
                box-shadow: 2px 2px 5px rgba($color-black, .2), -2px -2px 4px rgba($color-white, .1);
+               transform: scale(1.05) translateX(-48%) translateY(-.5rem);
           }
      }
      
