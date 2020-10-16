@@ -45,6 +45,8 @@ p {
 
 .heading-tertiary {
   font-size: 4rem; }
+  .heading-tertiary--light {
+    color: #fff; }
 
 .heading-quaternary {
   font-size: 2.3rem;
@@ -66,7 +68,7 @@ p {
       width: 100%; } }
 
 .container-big {
-  width: 90%;
+  width: 100%;
   margin: 0 auto; }
   @media (max-width: 900px) {
     .container-big {
@@ -221,7 +223,45 @@ p {
     background-color: rgba(239, 242, 254, 0.8);
     padding: 6rem;
     width: 35%;
-    box-shadow: 4px 3px 1.2rem rgba(0, 0, 0, 0.15), inset 4px 3px 1.4rem rgba(255, 255, 255, 0.6); }
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 4px 3px 1.2rem rgba(0, 0, 0, 0.15), inset 4px 3px 1.4rem rgba(255, 255, 255, 0.6);
+    transition: all .4s; }
+    .avantage__content--item:hover {
+      background-color: rgba(239, 242, 254, 0.6);
+      transform: scale(1.05) translateY(-1rem);
+      box-shadow: 4px 3px 1.2rem rgba(74, 171, 232, 0.15), inset 4px 3px 1.4rem rgba(255, 255, 255, 0.6); }
+    .avantage__content--item:before {
+      position: absolute;
+      content: '';
+      height: 0;
+      width: 0;
+      border: 1px solid transparent;
+      bottom: 0;
+      left: 0; }
+    .avantage__content--item:hover:before {
+      width: 100%;
+      height: 100%;
+      border: 1px solid rgba(74, 171, 232, 0.3);
+      border-right: none;
+      border-bottom: none;
+      transition: height .5s linear, width .5s linear .5s; }
+    .avantage__content--item:after {
+      position: absolute;
+      content: '';
+      height: 0;
+      width: 0;
+      border: 1px solid transparent;
+      top: 0;
+      right: 0; }
+    .avantage__content--item:hover:after {
+      width: 100%;
+      height: 100%;
+      border: 1px solid rgba(74, 171, 232, 0.3);
+      border-left: none;
+      border-top: none;
+      transition: height .5s linear, width .5s linear .5s; }
 
 .blog__categorie {
   width: 80%;
@@ -279,6 +319,13 @@ p {
     transition: all .4s; }
     .blog__text a:hover {
       color: #4AABE8; }
+
+.demo__banner {
+  width: 100%;
+  height: 25vh;
+  background-color: #00609D; }
+  .demo__banner h3 {
+    padding-top: 9rem; }
 
 .main {
   padding: 8rem 0;

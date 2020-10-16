@@ -13,7 +13,7 @@ get_header();
           <div class="avantage__content">
                <div class="flex avantage__content--box u-margin-top-big u-padding-bottom-big">
                     <article class="avantage__content--item">
-                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Titre 1</h3>
+                         <h4 class="heading-quaternary heading-quaternary--bold u-margin-bottom-normal">Simple d'utilisation</h3>
                               <p>111Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem totam amet blanditiis nisi adipisci, nihil suscipit voluptatibus, voluptates consequuntur voluptatem excepturi vel molestias magnam iste commodi iure tempora. At.</p>
                     </article>
                     <article class="avantage__content--item">

@@ -14,7 +14,7 @@
      <header class="header">
           <h1 class="heading-primary">EZ Tracking</h1>
 
-          <nav class="nav u-margin-bottom-big" id="nav-menu">
+          <nav class="nav u-margin-bottom-big container" id="nav-menu">
                <?php wp_nav_menu(
                     array(
                          'theme_location' => 'main_nav',

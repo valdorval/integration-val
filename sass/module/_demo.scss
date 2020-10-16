@@ -1,0 +1,12 @@
+.demo {
+
+     &__banner {
+          width: 100%;
+          height: 25vh;
+          background-color: $color-primary-light;
+
+          h3 {
+               padding-top: 9rem;
+          }
+     }
+}
