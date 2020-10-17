@@ -528,18 +528,3 @@ p {
   transition: all .4s; }
   .single-categorie__list a:hover {
     color: #4AABE8; }
-
-.dark {
-  background: #004673;
-  color: #fff;
-  transition: all 1s; }
-
-.header[data-theme='dark'] {
-  background: #004673;
-  color: #fff;
-  transition: all 1s; }
-
-.header[data-theme='light'] {
-  background: #EFF2FE;
-  color: #004673;
-  transition: all 1s; }

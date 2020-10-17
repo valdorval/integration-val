@@ -12,10 +12,11 @@
 <body>
 
      <header class="header" id="header">
-          <div class="header__check">
+          <!-- Swap theme -->
+          <!-- <div class="header__check">
                <input type="checkbox" class="checkbox" id="checkbox" name="check-toggle">
                <label for="checkbox" class="checkbox__toggle flex"></label>
-          </div>
+          </div> -->
           <h1 class="heading-primary">EZ Tracking</h1>
 
           <nav class="nav u-margin-bottom-big container" id="nav-menu">
