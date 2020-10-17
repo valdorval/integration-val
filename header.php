@@ -13,10 +13,8 @@
 
      <header class="header" id="header">
           <div class="header__check">
-               <input type="checkbox" class="checkbox" id="checkbox">
-               <label for="checkbox" class="checkbox__toggle flex">
-                    <div class="checkbox__toggle--toggle"></div>
-               </label>
+               <input type="checkbox" class="checkbox" id="checkbox" name="check-toggle">
+               <label for="checkbox" class="checkbox__toggle flex"></label>
           </div>
           <h1 class="heading-primary">EZ Tracking</h1>
 

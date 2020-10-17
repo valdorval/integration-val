@@ -1,0 +1,42 @@
+.demo-form {
+
+          width: 70%;
+          margin-bottom: 2rem;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+
+          input, select, textarea {
+               width: 60%;
+               padding: 1.5rem 2rem;
+               border-radius: 1rem;
+               border: 1px solid $color-blue;
+               font-size: 1.4rem;
+               font-weight: bold;
+               color: $color-primary;
+
+               &::placeholder {
+                    color: rgba($color-primary-light, .5);
+                    
+               }
+
+               &:focus {
+                    outline: none;
+                    box-shadow: 0 0 .5rem .2rem rgba($color-blue, .4);
+               }
+          
+
+          label {
+               color: $color-primary-light;
+               font-size: 1.3rem;
+               font-weight: 500;
+          }
+
+          textarea {
+               resize: none;
+               height: 25rem;
+          }
+
+     }
+}
+

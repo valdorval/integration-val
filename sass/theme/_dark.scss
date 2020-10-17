@@ -3,3 +3,15 @@
      color: $color-white;
      transition: all 1s;
 }
+
+.header[data-theme='dark'] {
+     background: $color-primary;
+     color: $color-white;
+     transition: all 1s;
+}
+
+.header[data-theme='light'] {
+     background: $color-background;
+     color: $color-primary;
+     transition: all 1s;
+}

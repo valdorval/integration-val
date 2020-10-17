@@ -37,7 +37,4 @@ add_action('wp_enqueue_scripts', 'enqueue_styles_crm');
 function enqueue_styles_crm()
 {
     wp_enqueue_style('style-style', get_template_directory_uri() . '/css/style.css');
-    wp_deregister_script('jquery');
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.1.1.min.js', array(), '3.1.1', true);
-    wp_enqueue_script('js-file', get_template_directory_uri() . '/js/main.js', array(), '1.0', true);
 }
